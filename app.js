@@ -13,7 +13,7 @@
       };
 
 function reply(string){
-    if(string === " "){
+    if(string == ""){
       return "Please enter data first"
     } else{
     if(string.length <= 3){
